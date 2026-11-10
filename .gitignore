@@ -1,0 +1,75 @@
+# ==========================================
+# Quarkus Backend (deliver/)
+# ==========================================
+# Build outputs
+deliver/target/
+deliver/bin/
+deliver/pom.xml.tag
+deliver/pom.xml.releaseBackup
+deliver/pom.xml.versionsBackup
+deliver/release.properties
+deliver/.flattened-pom.xml
+
+# Quarkus local plugins & certs
+deliver/.quarkus/cli/plugins/
+deliver/.certs/
+
+# IDE & Editor files
+deliver/.project
+deliver/.classpath
+deliver/.settings/
+deliver/.idea/
+deliver/*.ipr
+deliver/*.iml
+deliver/*.iws
+deliver/nb-configuration.xml
+deliver/.vscode/
+deliver/.factorypath
+
+# Environment
+deliver/.env
+
+# ==========================================
+# Next.js Frontend (deliver-ui/)
+# ==========================================
+# Dependencies
+deliver-ui/node_modules/
+deliver-ui/.pnp
+deliver-ui/.pnp.*
+deliver-ui/.yarn/*
+!deliver-ui/.yarn/patches
+!deliver-ui/.yarn/plugins
+!deliver-ui/.yarn/releases
+!deliver-ui/.yarn/versions
+
+# Next.js build & output
+deliver-ui/.next/
+deliver-ui/out/
+deliver-ui/build/
+deliver-ui/coverage/
+deliver-ui/.vercel/
+deliver-ui/*.tsbuildinfo
+deliver-ui/next-env.d.ts
+
+# Node / Package manager logs
+deliver-ui/npm-debug.log*
+deliver-ui/yarn-debug.log*
+deliver-ui/yarn-error.log*
+deliver-ui/.pnpm-debug.log*
+
+# Environment
+deliver-ui/.env*
+!deliver-ui/.env.example
+
+# ==========================================
+# General & System Files
+# ==========================================
+.DS_Store
+Thumbs.db
+*.pem
+*.log
+*.swp
+*.swo
+*.orig
+*.rej
+.env
